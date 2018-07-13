@@ -5,7 +5,7 @@ Use it on your own risk.
 
 ## VPS installation
 ```
-wget https://github.com/GigaBlockchain/Masternode-setup-guide/blob/master/giga_install.sh
+wget -N https://raw.githubusercontent.com/GigaBlockchain/Masternode-setup-guide/master/giga_install.sh
 bash giga_install.sh
 ```
 ***
@@ -45,9 +45,9 @@ Giga-cli masternode status
 
 ## Usage:
 ```
-Giga-cli masternode status
-Giga-cli getinfo
-Giga-cli mnsync status
+Giga-cli masternode status #To check your MN status
+Giga-cli getinfo #To get general info such as Giga version and current block numnber
+Giga-cli mnsync status #To check if your MN is synced.
 ```
 Also, if you want to check/start/stop **Giga**, run one of the following commands as **root**:
 
@@ -62,6 +62,6 @@ systemctl is-enabled Giga #To check if Giga service is enabled on boot
 ## Donations
 Any donation is highly appreciated
 
-**BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh  
-**ETH**: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E  
-**LTC**: LNZpK4rCd1JVSB3rGKTAnTkudV9So9zexB  
+**BTC**: 3MQLEcHXVvxpmwbB811qiC1c6g21ZKa7Jh
+**ETH**: 0x26B9dDa0616FE0759273D651e77Fe7dd7751E01E
+**LTC**: LNZpK4rCd1JVSB3rGKTAnTkudV9So9zexB

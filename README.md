@@ -5,7 +5,7 @@ Use it on your own risk.
 
 ## VPS installation
 ```
-wget -N https://raw.githubusercontent.com/zoldur/GigaCoin/master/giga_install.sh
+wget https://github.com/GigaBlockchain/Masternode-setup-guide/blob/master/giga_install.sh
 bash giga_install.sh
 ```
 ***
